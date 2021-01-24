@@ -1,5 +1,3 @@
-## Portfolio
+## Guessing Game
 
-* Basic website with my first html and css.
-* Includes a link to my movie page.
-* :cowboy_hat_face:
+* javascript file with guessing game
