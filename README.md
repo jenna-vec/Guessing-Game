@@ -1,3 +1,3 @@
 ## Guessing Game
 
-* javascript file with guessing game
+* Simple letter-guessing game
