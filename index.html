@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Letter Guessing Game</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="glow">
+      <h2>Guess a Letter</h2>
+    </div>
+    <br>
+    <div class="guess-div">
+      <input id="guess-text-input" type="text">
+      <button id="guess-text-button">Submit</button>
+    </div>
+    <div class="guess">
+      <p>Your Guess: <span id="your-guess"></span></p>
+      <p>Random Word: <span id="random-word"></span></p>
+      <p>Message: <span id="message-text"></span></p>
+    </div>
+    <div class="scores">
+      <p>Your Winning Percentage: <span id="winning-percentage"></span></p>
+    </div>
+    <div>
+      <ol class="rounds-list"></ol>
+    </div>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous">
+  </script>
+  <script src="index.js" charset="utf-8"></script>
+</html>
